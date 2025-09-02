@@ -1,8 +1,14 @@
 
 
+## Short description
+By default, you can stop an Amazon RDS database instance for up to seven days at a time. After seven days, the instance restarts so that it doesn't miss any maintenance updates.
+
+To stop your instance for more than seven days, you can use Step Functions to automate the workflow without missing a maintenance windo
 
 
-Configure IAM permissions
+## Steps
+
+### Configure IAM permissions
 Create an AWS Identity and Access Management (IAM) policy to allow Lambda to start and stop the instance and retrieve information on the instance.
 
 1. Open the IAM console.
@@ -76,7 +82,7 @@ For more information, see Creating policies using the JSON editor.
 
 For more information, see Creating a role for an AWS service (console).
 
-Add tags for DB instances
+### Add tags for DB instances
 1.    Open the Amazon RDS console.
 
 2.    In the navigation pane, choose Databases.
