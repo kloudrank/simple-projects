@@ -1,4 +1,4 @@
-## Save Money, By Keeping Your RDS DB Turned Off.
+## Save Money By Keeping Your RDS DB Turned Off.
 - source: https://repost.aws/knowledge-center/rds-stop-seven-days
 
 ## Short description
